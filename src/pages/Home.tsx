@@ -1,4 +1,3 @@
-import React from 'react'
 import { ArrowRight, Award, Leaf, ShieldCheck, Globe2 } from "lucide-react";
 import hero from '../assets/hero.png';
 import { Link } from 'react-router-dom';

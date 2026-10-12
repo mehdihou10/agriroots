@@ -1,4 +1,3 @@
-import React from 'react'
 import logo from '../assets/Agriroots_Logo_V1.png';
 
 
