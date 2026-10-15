@@ -8,7 +8,7 @@ import {
   Sparkles,
 } from "lucide-react";
 
-import hero from '../assets/hero.jpg';
+import hero from '../assets/products-hero.jpg';
 import product1 from '../assets/pr-1.jpg';
 import product2 from '../assets/pr-2.png';
 import product3 from '../assets/pr-3.jpeg';
@@ -21,6 +21,9 @@ import product8 from '../assets/product-8.png';
 import product10 from '../assets/product-10.png';
 import product11 from '../assets/product-11.png';
 import product12 from '../assets/product-12.png';
+import product13 from '../assets/1.jpg';
+import product14 from '../assets/2.jpg';
+import product15 from '../assets/3.jpg';
 import { Link } from "react-router-dom";
 
 
@@ -347,14 +350,19 @@ export default function Products() {
         <SectionHeading
           eyebrow="Gourmandises spéciales"
           title="Des créations autour de la datte"
-          description="Des produits complémentaires pour varier les usages et découvrir de nouvelles façons de valoriser la datte."
+          description=""
         />
 
-        <div className="mx-auto grid max-w-4xl gap-7 md:grid-cols-2">
-          {specialProducts.map((product) => (
-            <ProductCard key={product.name} product={product} />
-          ))}
+        <div className="mx-auto grid max-w-4xl gap-7 md:grid-cols-3">
+          <img className="h-[300px] w-full object-cover rounded-[5px]" src={product13} alt="product" />
+          <img className="h-[300px] w-full object-cover rounded-[5px]" src={product14} alt="product" />
+          <img className="h-[300px] w-full object-cover rounded-[5px]" src={product15} alt="product" />
         </div>
+
+        <p className="max-w-4xl mx-auto text-gray-700 mt-[15px]">
+          Notre datte se réinvente à travers des gâteaux sublimés, où tradition et créativité s’unissent pour révéler toute
+          la richesse de ses saveurs. Des créations gourmandes qui célèbrent l’authenticité de ce fruit d’exception.
+        </p>
       </section>
 
       {/* Certifications */}
