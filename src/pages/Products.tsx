@@ -8,16 +8,16 @@ import {
   Sparkles,
 } from "lucide-react";
 
-import hero from '../assets/hero.png';
-import product1 from '../assets/product-1.png';
-import product2 from '../assets/product-2.png';
-import product3 from '../assets/product-3.png';
-import product4 from '../assets/product-4.png';
+import hero from '../assets/hero.jpg';
+import product1 from '../assets/pr-1.jpg';
+import product2 from '../assets/pr-2.png';
+import product3 from '../assets/pr-3.jpeg';
+// import product4 from '../assets/product-4.png';
 import product5 from '../assets/product-5.png';
 import product6 from '../assets/product-6.png';
 import product7 from '../assets/product-7.png';
 import product8 from '../assets/product-8.png';
-import product9 from '../assets/product-9.png';
+// import product9 from '../assets/product-9.png';
 import product10 from '../assets/product-10.png';
 import product11 from '../assets/product-11.png';
 import product12 from '../assets/product-12.png';
@@ -56,12 +56,6 @@ const dateVarieties: Product[] = [
 
 const classicProducts: Product[] = [
   {
-    name: "Pâte de dattes",
-    description:
-      "Une préparation naturelle à base de dattes, idéale pour les desserts et les recettes sucrées.",
-    image: product4,
-  },
-  {
     name: "Sirop de dattes",
     description:
       "Un sirop concentré de dattes pouvant être utilisé comme édulcorant naturel dans différentes préparations.",
@@ -84,12 +78,6 @@ const classicProducts: Product[] = [
     description:
       "Une valorisation originale des noyaux de dattes sous forme de préparation inspirée du café.",
     image: product8,
-  },
-  {
-    name: "Chocolat de dattes",
-    description:
-      "Une création gourmande qui associe l'univers du chocolat à la richesse des dattes.",
-    image: product9,
   },
   {
     name: "Mélasse de dattes au citron et au gingembre",
