@@ -90,22 +90,6 @@ const classicProducts: Product[] = [
   },
 ];
 
-const specialProducts: Product[] = [
-  {
-    name: "Dattes fourrées",
-    description:
-      "Des dattes garnies de noix et de fruits pour une dégustation raffinée et gourmande.",
-    image: product11,
-    label: "Gourmandise",
-  },
-  {
-    name: "Poudre de noyaux de dattes",
-    description:
-      "Une forme valorisée des noyaux de dattes, destinée à diverses préparations culinaires.",
-    image: product12,
-    label: "Produit dérivé",
-  },
-];
 
 const packagingOptions = [
   {
